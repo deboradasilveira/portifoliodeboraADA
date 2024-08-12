@@ -1,0 +1,42 @@
+:root {
+    --primary-color: #4489e9;
+    --icon-color: #000000;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    display: grid;
+    grid-template-areas: 'content';
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  main {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  header {
+    grid-area: content;
+    z-index: 777;
+    max-width: 1200px;
+    width: 100%;
+    place-self: start center;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  section {
+    height: 100vh;
+  }
+  
+  
+    
